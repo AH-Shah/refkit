@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+# refkit outputs (regenerated from sources.tsv)
+library/
+references.json
+REPORT.md
+AUDIT.md
+VERIFY.md

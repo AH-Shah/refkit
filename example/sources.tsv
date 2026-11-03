@@ -1,0 +1,12 @@
+# key	source	id	override (CSL field=value;...; only where the official record lacks a field; empty value deletes)
+theodoris2023	doi	10.1038/s41586-023-06139-9
+goh2017	html	https://distill.pub/2017/momentum/
+huben2024	iclr	2024/1fa1ab11f4bd5f94b2ec20e794dbfa3b
+pedrocchi2025	doi	10.1101/2025.10.22.681631
+kotliar2019	doi	10.7554/eLife.43803
+bussmann2025	pmlr	v267/bussmann25a
+kingma2015	arxiv	1412.6980	type=paper-conference;container-title=International Conference on Learning Representations;issued=2015
+paszke2019	neurips	2019/bdbca288fee7f92f2bfa9f7012727740
+pedregosa2011	jmlr	v12/pedregosa11a
+wolf2020	acl	2020.emnlp-demos.6
+saegt_data2026	doi	10.5281/zenodo.23672147	type=dataset

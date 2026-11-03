@@ -1,0 +1,5 @@
+# words or phrases kept capitalised in titles; one per line
+Adam
+Python
+Hungarian
+Matryoshka

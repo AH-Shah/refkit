@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "refkit"
+dynamic = ["version"]
+description = "Build a reference list only from official citation records (DOI registries, arXiv, proceedings) and audit it."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "AH-Shah", email = "ahshahsavand02@gmail.com" }]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["bibliography", "citations", "csl", "pandoc", "crossref", "doi", "references"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Topic :: Text Processing :: Markup",
+]
+
+[project.urls]
+Homepage = "https://github.com/AH-Shah/refkit"
+Issues = "https://github.com/AH-Shah/refkit/issues"
+
+[project.scripts]
+refkit = "refkit.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "refkit.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
